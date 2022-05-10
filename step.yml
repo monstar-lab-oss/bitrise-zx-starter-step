@@ -10,9 +10,9 @@ description: |-
   ```
   code
   ```  
-website: https://github.com/monstarlab-oss/repo
-source_code_url: https://github.com/monstarlab-oss/repo
-support_url: https://github.com/monstarlab-oss/repo/issues
+website: https://github.com/monstar-lab-oss/repo
+source_code_url: https://github.com/monstar-lab-oss/repo
+support_url: https://github.com/monstar-lab-oss/repo/issues
 host_os_tags:
   - osx-10.10
 project_type_tags: []

@@ -18,7 +18,7 @@ Add this step manually in the bitrise.yml file:
 workflows:
   randomWorkflow:
     steps:
-      - git::https://github.com/monstarlab-oss/reponame:
+      - git::https://github.com/monstar-lab-oss/reponame@main:
         inputs:
         - some_input: "no"
         is_always_run: true
