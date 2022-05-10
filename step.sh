@@ -13,4 +13,4 @@ nvm install 16
 nvm use 16
 npm i -g zx
 
-zx https://github.com/monstar-lab-oss/bitrise-zx-starter-step/blob/main/main.mjs
+zx https://raw.githubusercontent.com/monstar-lab-oss/bitrise-zx-starter-step/main/main.mjs
