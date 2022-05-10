@@ -12,8 +12,8 @@ This starter includes basic step setup including:
 
 ## How to use 
 
+**1)**
 Add this step manually in the bitrise.yml file:
-
 ```
 workflows:
   randomWorkflow:
@@ -23,6 +23,11 @@ workflows:
         - some_input: "no"
         is_always_run: true
 ```
+
+**2)**
+Change the url in `step.sh` to point to your new repo's `main.mjs` on line 16.
+
+`zx https://raw.githubusercontent.com/monstar-lab-oss/bitrise-zx-starter-step/main/main.mjs`
 
 ## Resources
 
