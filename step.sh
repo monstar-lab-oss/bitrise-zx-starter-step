@@ -13,4 +13,6 @@ nvm install 16
 nvm use 16
 npm i -g zx
 
-zx https://raw.githubusercontent.com/monstar-lab-oss/bitrise-zx-starter-step/main/main.mjs
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+zx $SCRIPT_DIR/main.mjs
