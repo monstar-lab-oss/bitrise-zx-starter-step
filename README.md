@@ -24,11 +24,6 @@ workflows:
         is_always_run: true
 ```
 
-**2)**
-Change the url in `step.sh` to point to your new repo's `main.mjs` on line 16.
-
-`zx https://raw.githubusercontent.com/monstar-lab-oss/bitrise-zx-starter-step/main/main.mjs`
-
 ## Resources
 
 Bitrise step yml development: https://github.com/bitrise-io/bitrise/blob/master/_docs/bitrise-yml-format-spec.md
